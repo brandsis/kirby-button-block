@@ -1,0 +1,3 @@
+<div>
+	<a class="btn<?php if ($block->class()->isTrue()): ?> secondary<?php endif ?><?php if ($block->alignment() == 'center'): ?> txt-c<?php elseif ($block->alignment() == 'right'): ?> txt-r<?php else: ?><?php endif ?>" href="<?= $block->link()->toUrl() ?>" <?php if ($block->target()->isTrue()): ?>target="_blank"<?php endif ?> <?php if ($block->title()->isNotEmpty()): ?>title="<?= $block->title() ?>"<?php endif ?>><?= $block->text() ?></a>
+</div>

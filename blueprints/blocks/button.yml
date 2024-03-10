@@ -1,0 +1,36 @@
+name: Button
+icon: bolt
+fields:
+	text:
+		label: Button text
+		type: text
+		width: 1/2
+	class:
+		label: Secondary button
+		type: toggle
+		text:
+			- "no"
+			- "yes"
+		width: 1/2
+	link:
+		type: link
+	title:
+		type: text
+		icon: title
+	target:
+		label: Open in new window
+		type: toggle
+		width: 1/2
+		text:
+			- "no"
+			- "yes"
+	alignment:
+		type: toggles
+		width: 1/2
+		labels: false
+		grow: false
+		options:
+			- value: center
+				icon: text-center
+			- value: right
+				icon: text-right

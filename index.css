@@ -1,0 +1,20 @@
+.k-block-type-button button {
+	background-color: #f0f0f0;
+	border-radius: 4px;
+	cursor: pointer;
+	display: inline-flex;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 12px 14px;
+	text-transform: uppercase;
+}
+
+.k-block-type-button button:empty::after {
+	color: #999;
+	content: "Button text…";
+}
+
+.k-block-type-button button:focus {
+	border-color: var(--color-focus);
+	outline: 0;
+}
