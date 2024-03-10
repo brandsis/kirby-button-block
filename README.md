@@ -15,9 +15,9 @@ Once you've installed the plugin, simply add `- button` to your `fieldsets` opti
       type: blocks
       fieldsets:
         - text
-				- image
-				- gallery
-				- markdown
+        - image
+        - gallery
+        - markdown
         - button
 ```
 
