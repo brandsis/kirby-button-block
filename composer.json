@@ -2,7 +2,7 @@
 	"name": "brandsistency/button-block",
 	"description": "A custom button block for Kirby websites",
 	"type": "kirby-plugin",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"homepage": "https://github.com/brandsis/kirby-button-block",
 	"authors": [
