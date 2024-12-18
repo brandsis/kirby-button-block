@@ -4,31 +4,33 @@ fields:
 	text:
 		label: Button text
 		type: text
-		width: 1/2
+		width: 3/4
 	class:
 		label: Secondary button
 		type: toggle
 		text:
 			- "no"
 			- "yes"
-		width: 1/2
+		width: 1/4
 	link:
 		type: link
-	title:
-		type: text
-		icon: title
+		width: 3/4
 	target:
 		label: Open in new window
 		type: toggle
-		width: 1/2
+		width: 1/4
 		text:
 			- "no"
 			- "yes"
+	title:
+		type: text
+		icon: title
+		width: 3/4
 	alignment:
 		type: toggles
-		width: 1/2
+		width: 1/4
 		labels: false
-		grow: false
+		grow: true
 		options:
 			- value: center
 				icon: text-center
