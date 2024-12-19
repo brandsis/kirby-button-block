@@ -9,13 +9,17 @@
 	padding: 11px 12px 0;
 	text-transform: uppercase;
 }
-
 .k-block-type-button button:empty::after {
 	color: var(--color-gray-600);
 	content: "Button textâ€¦";
 }
-
 .k-block-type-button button:focus {
 	border-color: var(--color-focus);
 	outline: 0;
+}
+.k-block-type-button button[class*="txt-c"]) {
+	text-align: center;
+}
+.k-block-type-button button[class*="txt-r"]) {
+	text-align: right;
 }

@@ -44,8 +44,8 @@ When you add a button block in the Panel, the fields for completion will be disp
 * **Button text:** the text to be displayed on the button.
 * **Secondary button:** adds a `secondary` class to allow you to style an alternate button in your CSS ('no' by default).
 * **Link:** using the default Kirby link field, specify a target location &ndash; an external URL, an internal page, etc.
-* **Title:** add an optional `<title>` attribute.
 * **Open in new window:** add a `target="_blank"` attribute.
+* **Title:** add an optional `<title>` attribute.
 * **Alignment:** choose to centre or right-align your button.
 
 The alignment marks add `class="txt-c"` (centre) or `class="txt-r"` (right) to the `button` element. The class is added both in the Panel and in the front-end. The marks act as toggles, so clicking again will remove the `class`.
